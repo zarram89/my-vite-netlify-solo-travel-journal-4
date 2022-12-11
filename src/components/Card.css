@@ -1,0 +1,54 @@
+.card {
+  /* display: flex; */
+  height: 210px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--special);
+}
+
+.card__img  {
+  margin-right: 20px;
+}
+
+.card__img img {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+}
+
+.card__description {
+  width: 326px;
+  padding-top: 20px;
+}
+
+.card__place {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4px;
+}
+
+.card__country {
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.card__link {
+  color: var(--basic-gray);
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 7px;
+}
+
+.card__time {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 9px;
+}
